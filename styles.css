@@ -1,9 +1,52 @@
 body {
-	background: black;
+  background: black;
+  font-family: 'Handlee', cursive;
 }
 .postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
-	margin: auto;
+  background: white;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+.header .text{
+  width: 250px;
+}
+
+.header .image{
+  float: right;
+  width: 100px;
+}
+
+.header .text h1 {
+  padding-top: 20px;
+  margin-left: 5px;
+}
+
+.header .image img {
+  float: right;
+  height: 45px;
+  margin: 10px 5px 2px 5px;
+}
+
+.content-box .content-text{
+  float: left;
+  width: 50%;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.content-box .input-text input{
+  font-family: 'Handlee', cursive; 
+  float: right;
+  border: none;
+  width: 30%;
+  margin-right: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid #CCC;
+}
+
+.send-button button {
+  margin-left: 100px;
+  font-family: 'Handlee', cursive; 
 }
